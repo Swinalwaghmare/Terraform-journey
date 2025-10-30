@@ -16,7 +16,7 @@ resource "aws_subnet" "name" {
 
 resource "aws_instance" "name" {
     ami = "ami-0bdd88bd06d16ba03"
-    instance_type = "t2.nano"
+    instance_type = "t2.medium"
     subnet_id = aws_subnet.name.id
     tags = {
       Name = "Developer-1-Instance"
