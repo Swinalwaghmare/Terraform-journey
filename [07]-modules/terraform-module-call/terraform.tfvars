@@ -1,0 +1,7 @@
+vpc_cidr = "10.0.0.0/16"
+vpc_tags = "Terraform-VPC-3"
+subnet_az = "us-east-1a"
+subnet_cidr = "10.0.1.0/24"
+subnet_tags = "Terraform-Subnet-1a"
+ec2_instance_name = "Terraform-Instance-1"
+ec2_instance_type = "t2.micro"
