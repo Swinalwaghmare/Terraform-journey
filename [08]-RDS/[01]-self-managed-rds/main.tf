@@ -16,6 +16,7 @@ resource "aws_db_instance" "name" {
       Name = "Master-DB"
     }
     identifier = "master-db"
+    skip_final_snapshot = true
 }
 
 resource "aws_vpc" "db_vpc" {
