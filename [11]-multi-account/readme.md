@@ -23,8 +23,8 @@ provider "aws" {
 }
 ```
 
-### EC 2 (Us-East-1)
+### EC-2 (Us-East-1)
 <image src="..\images\multi-account\EC2.png">
 
-### S3 2 (Us-West-2)
+### S3 (Us-West-2)
 <image src="..\images\multi-account\S3.png">
