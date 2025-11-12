@@ -86,9 +86,9 @@ This Terraform project provisions a complete AWS environment consisting of netwo
 
 ---
 ### EC2
-<image src="..\images\IAM\EC2.png">
+<image src="..\..\images\IAM\EC2.png">
 
 ### CloudWatch
-<image src="..\images\IAM\cloudwatch.png">
+<image src="..\..\images\IAM\cloudwatch.png">
 
 ---
