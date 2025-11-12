@@ -39,18 +39,18 @@ The repository is structured into sequential folders to follow a logical learnin
 
 | Section | Folders | Topics Covered |
 | :--- | :--- | :--- |
-| **I. Fundamentals** | `[01]-Basic-Code` | Basic HCL syntax, resources, and providers. |
-| | `[02]-terraform-setup-files` | Working with variables, outputs, and local files. |
-| | `[03]-terraform-statefile` | Understanding and managing the local state file. |
-| | `[04]-state-locking` | Implementing remote backend (like S3/DynamoDB) to prevent concurrent state modifications. |
-| **II. Core Concepts** | `[05] (Networking, etc.)` | Custom Networking, `lifecycle` rules, and targeting specific resources. |
-| | `[06]-import` | Importing existing cloud resources into Terraform state. |
-| | `[07]-modules` | Creating and consuming reusable infrastructure modules. |
-| | `[10]-Provisioners` | Using `local-exec` and `remote-exec` to execute scripts. |
-| **III. Advanced Topics** | `[11]` (Advanced) | Workspace management, `locals` for expressions, `taint` command, IAM, multi-account, and multiple provider configurations. |
-| **IV. Resource Examples** | `[08]-RDS` | Deploying a managed Relational Database Service. |
-| | `[09]-lambda` | Automating the deployment of AWS Lambda functions. |
-| | `[11]-IAM` | Created a custom VPC network, attached an IAM role to an EC2 instance, and configured it with the CloudWatch Agent for monitoring using user data and null resource block. |
+| **I. Fundamentals** | [Basic-Code]([01]-Basic-Code) | Basic HCL syntax, `resources`, and `providers`. |
+| | [terraform-setup-files]([02]-terraform-setup-files) | Working with `variables`, `outputs`, and `local files`. |
+| | [terraform-statefile]([03]-terraform-statefile) | Understanding and managing the `local state file`. |
+| | [state-locking]([04]-state-locking) | Implementing remote backend (like `S3/DynamoDB`) to prevent concurrent state modifications. |
+| **II. Core Concepts** | [Custom-Networking]([05]-Custom-Networking), [Target-resources]([05]-Target-resources), [lifecycle-rules]([05]-lifecycle-rules)  | Custom `Networking`, `lifecycle` rules, and `targeting` specific resources. |
+| | [import]([06]-import) | Importing existing cloud resources into Terraform state. |
+| | [modules]([07]-modules) | Creating and consuming reusable infrastructure modules. |
+| | [Provisioners]([10]-Provisioners) | Using `local-exec` and `remote-exec` to execute scripts. |
+| **III. Advanced Topics** | [Workspace]([11]-Workspace), [locals]([11]-locals), [multi-account]([11]-multi-account), [multiple-provider]([11]-multiple-providers), [taint]([11]-taint) | Workspace management, `locals` for expressions, `taint` command, IAM, multi-account, and multiple provider configurations. |
+| **IV. Resource Examples** | [RDS]([08]-RDS) | Deploying a managed Relational Database Service. |
+| | [lambda]([09]-lambda) | Automating the deployment of AWS Lambda functions. |
+| | [IAM]() | Created a custom VPC network, attached an IAM role to an EC2 instance, and configured it with the CloudWatch Agent for monitoring using user data and null resource block. |
 
 -----
 
