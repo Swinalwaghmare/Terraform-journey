@@ -85,7 +85,7 @@ The repository is structured into sequential folders to follow a logical learnin
 
 -----
 
-## 🏗️ Project
+## 🏗️ Project 
 
 The **`Project/3-Tier-Project`** directory contains a comprehensive example of a real-world architecture.
 
