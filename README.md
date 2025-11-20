@@ -1,4 +1,4 @@
-# 🚀 Terraform Journey
+# 🚀 Terraform Journey 
 
 [](https://www.google.com/search?q=LICENSE)
 [](https://www.terraform.io/)
